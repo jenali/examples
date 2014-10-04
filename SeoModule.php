@@ -1,8 +1,12 @@
 <?php
-
+/**
+ * Class SeoModule
+ * @avtor Evgenii Yolkin <e.v.yolkin@gmail.com>
+ * @copyright 2013
+ */
 class SeoModule extends CWebModule
 {
-	//public $defaultController = 'Seo';
+	
 	public $version='1.0.0';
 	public $nameModule='SEO';
 	public $showFrontEnd = false;
@@ -11,8 +15,8 @@ class SeoModule extends CWebModule
 	static public function getImports()
 	{
 	  return array(
-	       'seo.models.*',
-			   'seo.components.*',
+	    'seo.models.*',
+		'seo.components.*',
 	  );
 	}
 
