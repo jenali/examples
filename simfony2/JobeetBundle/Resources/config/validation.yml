@@ -1,0 +1,6 @@
+# src/Ens/JobeetBundle/Resources/config/validation.yml
+Ens\JobeetBundle\Entity\Job:
+    properties:
+        email:
+            - NotBlank: ~
+            - Email: ~
